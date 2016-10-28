@@ -570,7 +570,7 @@
 
 
 
-#pragma mark - Paypal Shit
+#pragma mark - Paypal Stuff
 
 
 
