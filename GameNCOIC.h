@@ -41,14 +41,14 @@
     
     
     
-    // AdMob Advertisement Bullshit
+    // AdMob Advertisement
     
     GADInterstitial* AdMobInterstitial;
     
     GADBannerView* AdMobBannerView;
     GADBannerView* DuringGameplayAdMobBannerView;
     
-    // AdMob Advertisement Bullshit
+    // AdMob Advertisement
     
     
     
