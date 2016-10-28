@@ -124,7 +124,7 @@
     
     
     
-    // Load AdMob Shit
+    // Load AdMob
     
     
     // Create a view of the standard size at the top of the screen.
@@ -451,7 +451,7 @@
     
     
     
-    // Load this shit from save file
+    // Load from save file
     [MyGamePlayView setHighScore_Moves: [self moveCountHighScoreForLevel: level]];
     [MyGamePlayView levelPlayedBefore: [self levelCompleted: level]];
     [MyGamePlayView setLevelDifficulty: [self difficultyForLevel: level]];
@@ -495,7 +495,7 @@
 - (void)awakeFromNib {
     
     
-    // Because, for some reason, MyGamePlayView says FUCK YOU when I try to do this within awakeFromNib
+    // Because, for some reason, MyGamePlayView says "nope" I try to do this within awakeFromNib
     [NSTimer scheduledTimerWithTimeInterval: 0.0 target: self selector: @selector(beginGame) userInfo: nil repeats: NO];
     
     [super viewDidLoad];
