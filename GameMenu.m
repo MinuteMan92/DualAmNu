@@ -563,7 +563,7 @@
     
     //[myScrollView setContentOffset: CGPointMake(proposedOffset, 0) animated: TRUE];
     
-    // Replaced scroll view's built in operation with the UIView animation function because the scroll view tells me to fuck off on live devices
+    // Replaced scroll view's built in operation with the UIView animation function because the scroll view doesn't work as intended on live devices
     [UIView animateWithDuration:.25 animations:^{
         myScrollView.contentOffset = CGPointMake(proposedOffset, 0);
     }];
