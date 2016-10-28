@@ -235,7 +235,7 @@ GameMenuAnimDirection;
     
     
     
-    // Animation Shit
+    // Animation Stuff
     BOOL ContinueAnimation;
     NSTimer* AnimationTimer;
     
